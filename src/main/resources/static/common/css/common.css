@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'nanumGothic';
+    src: url("/common/font/NanumGothicCoding.ttf") format("truetype");
+}
+
+body {
+    font-family: 'nanumGothic' !important;
+}
+
+
+@media (prefers-color-scheme: light) {
+    /* 라이트 모드에 적용할 스타일 정의 */
+    body {
+        background: #fff;
+        line-height: 1.6;
+        /*max-width: 600px;*/
+        /*margin: 0 auto;*/
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: #000;
+    }
+
+    p,
+    dl {
+        color: #363636;
+    }
+
+    a {
+        color: #0076d1;
+        text-decoration: none;
+    }
+
+    code {
+        color: #000;
+        background: #efefef;
+        border-radius: 6px;
+        padding: 2.5px 5px;
+    }
+}
+
+
+@media (prefers-color-scheme: dark) {
+    /* 다크 모드에 적용할 스타일 정의 */
+    body {
+        background: #202b38;
+        line-height: 1.6;
+        /*max-width: 600px;*/
+        /*margin: 0 auto;*/
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: #fff;
+    }
+
+    p,
+    dl {
+        color: #dbdbdb;
+    }
+
+    a {
+        color: #41adff;
+        text-decoration: none;
+    }
+
+    code {
+        color: #ffbe85;
+        background: #161f27;
+        border-radius: 6px;
+        padding: 2.5px 5px;
+    }
+}
